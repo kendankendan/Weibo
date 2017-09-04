@@ -1,0 +1,189 @@
+2017-08-10 17:30:41  [ localhost-startStop-1:840 ] - [ ERROR ]  Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroFilter' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'securityManager' while setting bean property 'securityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'shiroDbRealm' while setting bean property 'realm'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroDbRealm' defined in class path resource [applicationContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.shiro.demo.service.realm.ShiroDbRealm]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	AuthorizingRealm cannot be resolved to a type
+	AuthorizationInfo cannot be resolved to a type
+	PrincipalCollection cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	StringUtils cannot be resolved
+	AuthorizationException cannot be resolved to a type
+	AuthenticationInfo cannot be resolved to a type
+	AuthenticationToken cannot be resolved to a type
+	AuthenticationException cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	SimpleAuthenticationInfo cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:329)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:753)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:464)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5634)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1571)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1561)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'securityManager' defined in class path resource [applicationContext.xml]: Cannot resolve reference to bean 'shiroDbRealm' while setting bean property 'realm'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroDbRealm' defined in class path resource [applicationContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.shiro.demo.service.realm.ShiroDbRealm]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	AuthorizingRealm cannot be resolved to a type
+	AuthorizationInfo cannot be resolved to a type
+	PrincipalCollection cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	StringUtils cannot be resolved
+	AuthorizationException cannot be resolved to a type
+	AuthenticationInfo cannot be resolved to a type
+	AuthenticationToken cannot be resolved to a type
+	AuthenticationException cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	SimpleAuthenticationInfo cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:329)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:107)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1387)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1128)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	... 24 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'shiroDbRealm' defined in class path resource [applicationContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.shiro.demo.service.realm.ShiroDbRealm]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	AuthorizingRealm cannot be resolved to a type
+	AuthorizationInfo cannot be resolved to a type
+	PrincipalCollection cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	StringUtils cannot be resolved
+	AuthorizationException cannot be resolved to a type
+	AuthenticationInfo cannot be resolved to a type
+	AuthenticationToken cannot be resolved to a type
+	AuthenticationException cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	SimpleAuthenticationInfo cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1007)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:953)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:323)
+	... 34 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.shiro.demo.service.realm.ShiroDbRealm]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	AuthorizingRealm cannot be resolved to a type
+	AuthorizationInfo cannot be resolved to a type
+	PrincipalCollection cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	StringUtils cannot be resolved
+	AuthorizationException cannot be resolved to a type
+	AuthenticationInfo cannot be resolved to a type
+	AuthenticationToken cannot be resolved to a type
+	AuthenticationException cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	SimpleAuthenticationInfo cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1000)
+	... 42 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	The import org.apache cannot be resolved
+	AuthorizingRealm cannot be resolved to a type
+	AuthorizationInfo cannot be resolved to a type
+	PrincipalCollection cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	SimpleAuthorizationInfo cannot be resolved to a type
+	StringUtils cannot be resolved
+	AuthorizationException cannot be resolved to a type
+	AuthenticationInfo cannot be resolved to a type
+	AuthenticationToken cannot be resolved to a type
+	AuthenticationException cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	UsernamePasswordToken cannot be resolved to a type
+	SimpleAuthenticationInfo cannot be resolved to a type
+
+	at org.shiro.demo.service.realm.ShiroDbRealm.<init>(ShiroDbRealm.java:8)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 44 more

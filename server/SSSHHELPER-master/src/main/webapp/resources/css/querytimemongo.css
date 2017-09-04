@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0;font-family: 'Microsoft Yahei';font-size:15px;}
+.clear{clear: both}
+.ChartFrame{width:100%;height:300px;padding-top: 15px;}
+.Chartleft{float:left;margin-left: 60px;}
+.Chartright{float:right;margin-right: 60px;}
+#timetop{padding-left: 60px;padding-top: 30px;width: 610px;margin: auto;}
+.charts{margin-top: 50px;margin-left: auto;margin-right: auto;}
+.timelab{font-family: 'Microsoft Yahei'}
